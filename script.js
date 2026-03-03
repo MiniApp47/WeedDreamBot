@@ -1051,21 +1051,21 @@ ${product.description ? `<div class="product-description">${product.description}
         }
 
         if (target.closest('#confirm-order-button')) {
-            // Ton numéro WhatsApp au format international (sans le + ni 00)
-            const phoneNumber = '33746565751'; 
+            // Nom d'utilisateur cible
+            const username = 'moussdream'; 
             
             let message = formatOrderMessage();
             
-            // Nettoyage optionnel du message pour WhatsApp
+            // Nettoyage des caractères spéciaux si nécessaire
             message = message.replace(/\*/g, '');
             
             const encodedMessage = encodeURIComponent(message);
             
-            // Construction de l'URL WhatsApp
-            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+            // URL directe pour Telegram avec pré-remplissage du message
+            const telegramUrl = `https://t.me/${username}?text=${encodedMessage}`;
             
-            // Ouverture du lien via l'API Telegram WebApp
-            tg.openLink(whatsappUrl);
+            // Ouverture via l'API Telegram WebApp
+            tg.openLink(telegramUrl);
         }
     });
 
