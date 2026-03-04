@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: false,
                         type: 'Frozen',
                         image: 'ProductDuck.png',
-                        video: 'VideoDuck.mp4',
+                        video: 'VideoDuck.mov',
                         description: '',
                         tarifs: [
                             { weight: '10g', price: 30.00 },
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: false,
                         type: 'Frozen',
                         image: 'ProductLas.png',
-                        video: 'VideoLas.mp4',
+                        video: 'VideoLas.mov',
                         description: '',
                         tarifs: [
                             { weight: '10g', price: 30.00 },
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: false,
                         type: 'STATIC',
                         image: 'ProductMimoza.png',
-                        video: 'VideoMimoza.',
+                        video: 'VideoMimoza.mov',
                         description: 'Extraction sans solvant.',
                         tarifs: [
                             { weight: '5g', price: 30.00 },
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: false,
                         type: 'CALI SPAIN',
                         image: 'ProductPurple.png',
-                        video: 'VideoPurple.mp4',
+                        video: 'VideoPurple.mov',
                         description: '',
                         tarifs: [
                             { weight: '5g', price: 40.00 },
@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         promoEligible: false,
                         type: 'AMNÉ',
                         image: 'ProductAmne.png',
-                        video: 'VideoAmne.mp4',
+                        video: 'VideoAmne.mov',
                         description: '',
                         tarifs: [
                             { weight: '5g', price: 30.00 },
